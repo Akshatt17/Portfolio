@@ -1,0 +1,161 @@
+EXTEND DESIGN TO ALL PAGES – FLOATING PANEL SYSTEM
+
+Use the previously designed floating-panel interaction and create full designs for EVERY page of the portfolio.
+
+Each page must follow:
+
+• Layout #1 style interaction (sliding focus panels)  
+• Layout #2 visual theme (dark subtle tech tone)  
+• Customized ML/AI Engineer content structure
+
+--------------------------------------------------
+PAGE DEFINITIONS
+--------------------------------------------------
+
+1. HOME PANEL
+Purpose: Quick identity & entry point
+
+Must contain:
+• Name – Akshatt Tayal  
+• Title – AI/ML Engineer | Edge AI | Systems  
+• One-line value statement  
+• Badges: Patent | ProtoStar | Hackathon  
+• Buttons: Projects | GitHub | Resume  
+• Short highlight strip (3–4 items)
+
+Interaction:
+• Main focus panel on load  
+• CTA leads to Projects panel
+
+--------------------------------------------------
+
+2. RECOGNITIONS PANEL
+Purpose: Establish credibility
+
+Components:
+• 4 certificate cards  
+   – Patent  
+   – ProtoStar 2024  
+   – Stellar 2023  
+   – Hackathon Finalist
+
+• Each card:
+   – title  
+   – 2 line context  
+   – “View Certificate”
+
+• Small impact metrics block
+
+--------------------------------------------------
+
+3. PROJECTS PANEL
+Purpose: Core technical showcase
+
+Structure:
+TWO TABS inside panel
+
+A. Industry Systems  
+• Distributed Edge AI  
+• Audio Event Detection  
+• NPU Manager  
+• Model Deployment
+
+B. MVP LAB (Coming)  
+• Algo Trading App  
+• Others placeholders
+
+Each project card:
+• title  
+• summary  
+• tech tags  
+• impact  
+• link area
+
+--------------------------------------------------
+
+4. ABOUT / JOURNEY PANEL
+Purpose: Professional narrative
+
+Blocks:
+• Who I am  
+• 2022–2025 Samsung phase  
+• 2025–Present builder phase  
+• Skills grid  
+• Philosophy
+
+--------------------------------------------------
+
+5. BLOG PANEL
+Purpose: Knowledge sharing
+
+Layout:
+• article cards  
+• categories  
+• read time  
+• featured post
+
+--------------------------------------------------
+
+6. NOW PANEL
+Purpose: Current focus
+
+Content:
+• Building MVPs  
+• Learning areas  
+• Professional goals  
+• 1–2 lines personal growth
+
+Minimal tone.
+
+--------------------------------------------------
+
+7. CONTACT PANEL
+Purpose: Conversion
+
+• email  
+• social links  
+• simple form  
+• availability
+
+--------------------------------------------------
+
+DESIGN RULES
+------------
+
+Consistency  
+• All panels same width/height  
+• same header style  
+• same footer actions
+
+Theme  
+• dark navy base  
+• muted purple accent  
+• glass cards  
+• subtle grid
+
+Interaction  
+• horizontal sliding  
+• center focus  
+• keyboard support  
+• mobile vertical fallback
+
+ACCESSIBILITY  
+• high contrast  
+• readable fonts  
+• focus states  
+• no motion sickness
+
+DELIVERABLE
+-----------
+
+1. Full page designs for all panels  
+2. Interaction prototype linking them  
+3. Mobile version  
+4. Component library  
+5. Design tokens
+
+DO NOT:
+• use lorem text  
+• copy templates directly  
+• add personal photo hero  
+• make agency style

@@ -1,0 +1,223 @@
+
+⸻
+
+1️⃣ HOME PANEL
+
+Title
+
+Akshatt Tayal
+
+Subtitle
+
+AI / ML Engineer • Edge AI • Systems
+
+One-Liner
+
+I build intelligent systems that work on real devices — from models to production under real constraints.
+
+Badges
+
+🏅 Patent Holder · ⭐ ProtoStar 2024 · 🚀 Hackathon Finalist
+
+Highlights (3 cards)
+
+Edge AI in Production
+Deployed computer vision & audio models across Samsung devices using SNPE, Vivante & Tizen.
+
+Systems + ML
+C++ performance, on-device training, model optimization for constrained hardware.
+
+Builder Mindset
+Now focused on rapid MVPs, AI-first workflows, and product thinking.
+
+Primary Actions
+	•	View Works
+	•	GitHub
+	•	Resume
+
+⸻
+
+2️⃣ HONOURS PANEL
+
+Section Intro
+
+Recognitions that reflect real impact, not just participation.
+
+⸻
+
+🏅 International Patent – A1 Grade
+
+Inventor of a vision system that auto-generates visually appealing outfits without user input. Recognized Q1 2025.
+
+⸻
+
+⭐ ProtoStar Award 2024
+
+Awarded for outstanding contribution to AI product development and consistent high-impact delivery.
+
+⸻
+
+🏆 Stellar Project Award 2023 – Best Execution
+
+Recognized for optimizing on-device AI pipeline under strict performance constraints.
+
+⸻
+
+🚀 Hackathon 2024 – Top Finalist
+
+Built an MCF-based distributed Edge AI system enabling on-device learning across Samsung ecosystem.
+
+⸻
+
+Impact Snapshot
+	•	98.4% facial recognition accuracy on edge
+	•	54KB audio model selected for commercialization
+	•	Multiple production CV models deployed
+	•	400+ DSA problems solved
+
+⸻
+
+3️⃣ WORKS PANEL
+
+TAB A – INDUSTRY SYSTEMS
+
+Distributed Edge AI Offloading
+
+Problem: Legacy devices lacked AI hardware
+Solution: 3-model pipeline (UltraFace → FaceNet → SVM) with CPU training + NPU inference
+Impact: 98.4% accuracy with privacy-first on-device learning
+Stack: C++, TensorFlow, Tizen, NPU
+
+⸻
+
+Audio Event Detection – Tizen Lite
+
+Constraint: 64KB model, MCU device
+Work: Custom C++ TF ops, window optimization
+Result: 86% accuracy, 28ms latency → Selected for Y26 commercialization
+
+⸻
+
+Edge Model Deployment Framework
+
+Work: Deployed YOLO, blur, carpet, food models via SNPE/Vivante
+Focus: SDK integration, performance tuning, real device constraints
+
+⸻
+
+NPU Manager Middleware
+
+Work: Vendor plugin system, HAL decoupling, Tizen migration
+Impact: Unified AI support across SoCs
+
+⸻
+
+TAB B – MVP LAB (IN PROGRESS)
+
+Algo Trading App – No Code
+Strategy builder → backtest → paper trade
+
+AI Interview Coach
+Resume-aware mock interviews
+
+Edge ML Playground
+Model convert & benchmark
+
+(Links will appear as these ship)
+
+⸻
+
+4️⃣ JOURNEY PANEL
+
+Who I Am
+
+I work at the intersection of machine learning, systems engineering, and real-world constraints. My focus is turning research ideas into deployable products.
+
+⸻
+
+2022 – 2025 | Samsung R&D
+	•	On-device ML deployment
+	•	C++ performance engineering
+	•	Production CV & audio models
+	•	Cross-SDK integration
+
+⸻
+
+Oct 2025 – Present | Independent Phase
+	•	Building AI MVPs
+	•	Exploring markets + ML
+	•	Adopting AI-assisted workflows
+	•	Deepening system design
+
+⸻
+
+Core Skills
+
+ML: TensorFlow, PyTorch, ONNX
+Edge: SNPE, NNTrainer, Tizen
+Systems: C++, Linux, Optimization
+New: Rapid MVP, Product Thinking
+
+⸻
+
+Philosophy
+
+Build → Measure → Improve.
+Real users over toy demos.
+
+⸻
+
+5️⃣ PERSPECTIVE PANEL (Blog / Ideas)
+
+Featured Themes
+
+Edge AI Lessons
+What shipping on constrained hardware actually teaches.
+
+From Systems to Product
+Why engineers must think like users.
+
+MVP Mindset
+Speed without losing fundamentals.
+
+Markets & ML
+Decision systems beyond pure accuracy.
+
+(Articles will live here)
+
+⸻
+
+6️⃣ NOW PANEL
+
+Current Focus
+	•	Building first 4–5 MVPs
+	•	Preparing for ML/SDE-2 roles
+	•	Learning trading systems & risk
+	•	Writing about edge AI
+
+Personal Reset
+
+Investing in health, creativity, reading, and travel to return with clearer long-term direction.
+
+(Brief, professional tone)
+
+⸻
+
+7️⃣ CONNECT PANEL
+
+Let’s Talk
+
+I’m open to roles in:
+	•	ML Engineer
+	•	AI Engineer
+	•	SDE-2 (Systems + ML)
+
+Email: akshatttayal@gmail.com
+GitHub: github.com/Akshatt17
+LinkedIn: akshatt-tayal
+Leetcode: /u/Akshatt17
+
+Buttons:
+	•	Download Resume
+	•	GitHub
+	•	Email

@@ -1,0 +1,109 @@
+UI DESIGN TASK – FLOATING PANEL PORTFOLIO
+
+GOAL
+----
+Design a portfolio UI that combines:
+
+• Interaction style from Layout #1  
+  – Floating panels  
+  – Center-focused card  
+  – Horizontal sliding with cursor movement  
+
+• Visual theme from Layout #2  
+  – Dark AI/tech aesthetic  
+  – Subtle gradients  
+  – Professional, non-flashy tone  
+
+This must be CUSTOMIZED for an ML/AI Engineer portfolio, NOT a generic template.
+
+CORE INTERACTION MODEL
+----------------------
+
+1. PANEL SYSTEM
+• Each main section is a floating panel/screen  
+• Panels arranged horizontally in 3D depth  
+• Center panel = active focus  
+• Left/right panels partially visible with perspective blur
+
+2. NAVIGATION BEHAVIOR
+• When cursor moves right → panels slide left  
+• When cursor moves left → panels slide right  
+• Scroll wheel also triggers horizontal movement  
+• Smooth spring animation (not fast carousel)
+
+3. FOCUS LOGIC
+• Center panel = full opacity, sharp  
+• Side panels = 60–70% opacity + slight blur  
+• Depth shadow and scale difference  
+• Snap-to-center behavior
+
+SECTIONS TO REPRESENT AS PANELS
+-------------------------------
+
+Panel 1 – HOME  
+• Name + role  
+• badges (Patent, Awards, Hackathon)  
+• primary actions
+
+Panel 2 – RECOGNITIONS  
+• certificate cards  
+• impact metrics
+
+Panel 3 – PROJECTS  
+• industry work  
+• MVP lab placeholders
+
+Panel 4 – ABOUT / JOURNEY  
+• timeline
+
+Panel 5 – BLOG  
+• article cards
+
+Panel 6 – NOW  
+• current focus
+
+Panel 7 – CONTACT  
+
+VISUAL THEME RULES (FROM LAYOUT #2)
+-----------------------------------
+
+• Dark navy / charcoal base  
+• Muted purple-blue accent  
+• Glassmorphism cards  
+• Subtle grid background  
+• Tech minimalism
+
+DO NOT:
+• use bright neon  
+• copy layout #2 structure  
+• use big personal photo hero  
+• make it look like web agency
+
+COMPONENT SPEC
+--------------
+
+Each panel must have:
+
+• Title area  
+• content grid  
+• action footer  
+• consistent width  
+• responsive mobile fallback (vertical stack)
+
+ANIMATION SPEC
+--------------
+
+• Framer-style spring  
+• parallax depth 10–15px  
+• 0.6s transition  
+• hover elevate card  
+• keyboard arrow support
+
+OUTPUT REQUIRED
+---------------
+
+1. Figma-style design system  
+2. Panel layout mock  
+3. Interaction prototype  
+4. Mobile version  
+5. Component breakdown
