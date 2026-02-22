@@ -1,6 +1,7 @@
 import { motion, useTransform, useSpring } from "framer-motion";
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 interface FloatingPanelProps {
   children: ReactNode;
@@ -18,33 +19,56 @@ export default function FloatingPanel({
   mouseX 
 }: FloatingPanelProps) {
   const offset = index - activeIndex;
+  const isMobile = useIsMobile();
   
   const parallaxX = useTransform(mouseX, [-1, 1], [30, -30]);
   const springConfig = { stiffness: 200, damping: 30, mass: 1 };
   const smoothParallax = useSpring(parallaxX, springConfig);
 
-  return (
-    <motion.div
-      className={cn(
-        "absolute top-0 bottom-0 my-auto",
-        "w-[90vw] md:w-[450px] lg:w-[500px]",
-        "h-full max-h-[80vh] md:max-h-[650px]", 
-        "transition-all duration-700 ease-out"
-      )}
-      initial={false}
-      animate={{
-        x: `calc(-50% + ${offset * 105}% + ${offset * 20}px)`, 
+  // Mobile: centered single panel, no parallax/perspective; Desktop: full carousel
+  const animateProps = isMobile
+    ? {
+        x: `calc(-50% + ${offset * 100}%)`,
+        scale: isActive ? 1 : 0.85,
+        opacity: isActive ? 1 : 0.3,
+        z: isActive ? 0 : -150,
+        rotateY: 0,
+      }
+    : {
+        x: `calc(-50% + ${offset * 105}% + ${offset * 20}px)` as const,
         scale: isActive ? 1 : 0.85,
         opacity: isActive ? 1 : 0.3,
         z: isActive ? 0 : -150,
         rotateY: offset * -8,
-      }}
-      style={{
-        left: "50%", 
+      };
+
+  const styleProps = isMobile
+    ? {
+        left: "50%" as const,
+        translateX: 0,
+        zIndex: isActive ? 50 : 40 - Math.abs(offset),
+        filter: isActive ? "blur(0px)" : "blur(4px)",
+      }
+    : {
+        left: "50%" as const,
         translateX: smoothParallax,
         zIndex: isActive ? 50 : 40 - Math.abs(offset),
         filter: isActive ? "blur(0px)" : "blur(4px)",
-      }}
+      };
+
+  return (
+    <motion.div
+      className={cn(
+        "absolute top-0 bottom-0 my-auto",
+        "w-[95vw] max-w-[95vw] md:w-[450px] md:max-w-none lg:w-[500px]",
+        "h-full max-h-[80vh] md:max-h-[650px]", 
+        "transition-all duration-700 ease-out",
+        "mx-auto md:mx-0",
+        "origin-center"
+      )}
+      initial={false}
+      animate={animateProps}
+      style={styleProps}
       transition={{
         type: "spring",
         stiffness: 150,

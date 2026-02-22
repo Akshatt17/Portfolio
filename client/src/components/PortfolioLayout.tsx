@@ -72,7 +72,7 @@ export default function PortfolioLayout() {
       </nav>
 
       {/* Main Panels Area - Flex grow to fill space and prevent overlap */}
-      <main className="relative flex-1 w-full flex items-center justify-center preserve-3d">
+      <main className="relative flex-1 w-full min-w-0 flex items-center justify-center overflow-x-hidden preserve-3d">
         {SECTIONS.map((section, idx) => (
           <FloatingPanel
             key={section.id}
